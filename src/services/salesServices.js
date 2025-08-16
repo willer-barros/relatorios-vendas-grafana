@@ -1,4 +1,4 @@
-const pool = require("./config/database")
+const pool = require("../config/database")
 
 const createSale = async (amount) =>{
     const [result] = await pool.execute(
