@@ -1,0 +1,31 @@
+# Dependências instaladas localmente
+node_modules
+
+# Logs e arquivos temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+
+# Diretórios de build/teste
+dist
+build
+coverage
+
+# Configurações locais e sensíveis
+.env
+.env.local
+.env.*.local
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Git e outros VCS
+.git
+.gitignore
+
+# Dockerfile e docker-compose (se não forem usados no container final)
+docker-compose.yml
+Dockerfile.dev
